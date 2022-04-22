@@ -1,0 +1,147 @@
+@font-face {
+    font-family: leporsche;
+    src: url(/LEPORSCHE.otf);
+  }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{ /*Alterando padrão de font-size do navegador de 16px para 10px*/
+    
+    font-size:62,5%;
+}
+#page{
+    max-width: 375px;
+    margin: 0 auto;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    background: #ffffff;
+
+}
+header{   
+    background-color: #bcc5b6;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+header img{
+    max-width: 12rem;
+    
+    padding: 1.0rem 1.0rem;
+    margin-bottom: 0.5rem;
+}
+header nav{
+    max-width: 3.2rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem;
+
+    margin-bottom: 2.0rem;
+
+    text-align: right;
+
+    font-size: 0.85rem;
+    letter-spacing: -1px;
+}
+.linha-separacao{
+    border-left: 0.65px solid rgba( 96 , 53 , 36 , 0.30);
+    border-width: 2px;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    
+    margin: -2px;
+
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+
+    font-family: Leporsche, sans-serif;
+
+}
+header a:hover{
+    color: #b46444;
+    font-weight: bold;
+
+}
+main{
+    max-width: 3.2rem;
+    
+    margin:2.5rem auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+
+    max-width: 32.0rem;
+}
+.decoracao-fundo{
+
+    position: absolute;
+    left: 4.6rem;
+    
+    width: 15.3rem;
+    height: 22rem;
+    
+    background-color: rgba(115,129,123,0.40);
+    
+    border-radius: 40rem 150rem 90rem 45rem;
+}
+section > img{
+    position: relative;
+    width: 14rem;
+    border-radius: 155px 25px 155px 9px;
+}
+section h1{
+
+    margin-top: 2.5rem;
+
+    color:#b46444; 
+    
+    font-size: 3.0rem;
+    font-family:Leporsche, sans-serif;
+    font-weight: bold;
+    
+    line-height: 3.4rem;
+    letter-spacing: 4px;
+    
+    margin-bottom:2px;
+}
+section h1 + p{
+    color: #484646d1;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+    line-height: 1.8rem;
+    letter-spacing: -1px;
+    
+    margin-bottom: 1.8rem;
+}
+section .sub-titulo + p{
+ 
+    font-size: 1.0rem;
+    text-align: justify;
+    color: #b39696;
+}
+.linha-horizontal{
+    
+    width: 20rem;
+    height: 0;
+    border-top: 0.4px dashed  #bcc5b6;
+
+    margin: 2.5rem;
+
+}

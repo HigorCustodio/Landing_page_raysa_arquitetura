@@ -23,7 +23,7 @@
     
     background-color:#ffffff;
 }
-body,p{
+body,p, .clientes{
     font-family: 'Open Sans', sans-serif;
 }
 header{   
@@ -85,7 +85,7 @@ header a:hover{
     font-weight: bold;
 }
 main{
-    max-width: 59.0rem; ;
+    max-width: 65.0rem; ;
     
     margin:  2.5rem auto;
 }
@@ -148,6 +148,111 @@ section h1{
     margin-bottom: 1.8rem;
 }
 section p{
+    font-size: 1.4rem;;
+    text-align: left;
+    color: #888787;
+}
+
+.clientes-1-box{
+    max-width: 69.0rem;
+    margin:10.0rem 0 0; 
+}
+.wrapper-1{
+    position: relative;
+    left: 0;
+    top:0
+    
+}
+section .cliente-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+
+    width: 28.6rem;
+    height: 35rem;
+    padding: 1rem 0 0 1.5rem ;
+    box-shadow:8px 2px 8px 8px rgba(115,129,123,0.40);
+}
+.clientes-2-box{
+    max-width: 69.0rem;
+    margin:3.0rem 0 2rem 0; 
+}
+.wrapper-2{
+    position: relative; 
+}
+section .cliente-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+
+    width: 28.6rem;
+    height: 35rem;
+    padding: 1rem 0 0 1.5rem ;
+    box-shadow:2px 2px 8px 8px rgba(115,129,123,0.40);
+}
+.clientes-3-box{
+    max-width: 69.0rem;
+    margin:3.0rem 0 0 3.2rem ; 
+    
+}
+.wrapper-3{
+    position: relative;
+    left:0;
+    top:0;
+    
+}
+section .cliente-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+
+    width: 28.6rem;
+    height: 35rem;
+    padding: 1rem 0 0 1.5rem ;
+    box-shadow:8px 2px 8px 8px rgba(115,129,123,0.40);
+}
+.cliente-img{
+    
+    width: 12.0rem;
+    height: auto;
+
+    margin: 1rem;
+    border-radius: 90%;
+    
+}
+
+section h2{
+
+    font-family:Leporsche, sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 4.0rem;
+
+    color:#b46444;
+
+}
+section .subtitulo-cliente {
+    color: #0c0908;
+
+    font-size: 1.8rem;
+    font-weight:400;
+    
+
+    margin-bottom: 1.8rem;
+
+}
+/*
+section .cliente + .cliente{
+
+    border-left: 1px solid #bcc5b6;
+    padding: 1.2rem;
+} 
+*/
+section q {
+
     font-size: 1.4rem;;
     text-align: left;
     color: #888787;
