@@ -108,23 +108,26 @@ section{
 }
 .decoracao-fundo{
     
-    position: absolute;
+    position:absolute;
     z-index: 0;
-    width: 21rem;
+    width: 22rem;
     height: 30rem;
 
     background-color: rgba(115,129,123,0.40);
     
-    border-radius: 10rem 80rem 60rem 25rem;
+    border-radius: 10rem 80rem 40rem 25rem;
     
-    margin-left: 5.18rem;
+    margin-left:5.5rem;
+    
+    margin-block-end: initial;
+    
 
 }
 section > img{
     width: 20.0rem;
     border-radius: 155px 25px 155px 9px;
 
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .texto-principal{
@@ -166,7 +169,7 @@ section h1{
     color: #9e9d9d;
 }
 .clientes-1-box {
-    max-width: 30.5rem;
+ 
     margin:3rem 0.5rem 5rem 0.5rem; 
 }
 .clientes-2-box, .clientes-3-box{
