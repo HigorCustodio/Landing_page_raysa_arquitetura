@@ -9,7 +9,6 @@ Venho desenvolvendo usando o HTML e o CSS, até o momento estou aprimorando conf
 
 No CSS os conceitos de Display: Flex e Position também são usados como base para o posicionamento dos containers dentro da página.
 
-Link para o projeto no GitHub: https://github.com/HigorCustodio/Landing_page_raysa_arquitetura
 
 ![Captura de tela 2022-04-30 180842](https://user-images.githubusercontent.com/102877698/167277068-82b316f8-a472-4c42-a39c-427907f556a8.png)
 ![Captura de tela 2022-04-30 181031](https://user-images.githubusercontent.com/102877698/167277069-6c557e78-297a-48f3-b433-3f62dd6d661a.png)
